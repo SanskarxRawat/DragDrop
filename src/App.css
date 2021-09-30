@@ -1,0 +1,145 @@
+.button: {
+  margin: 10,
+}
+
+.droppable {
+  min-height: 140px;
+  min-width:700px;
+  background: white;
+  padding: 5px;
+  margin: auto;
+  background-color: #9E9E9E;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  header {
+    padding-left: 10px;
+    font-size: 12px;
+  }
+}
+
+.draggable {
+  background-color: purple;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  cursor: move;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+  &.clone {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &.dropped {
+    background: cornflowerblue;
+  }
+}
+
+.integer{
+  background-color: purple;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+  width: 90px;
+  height: 60px;
+  cursor: move;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+  &.clone {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &.dropped {
+    background: cornflowerblue;
+  }
+}
+
+.drag{
+  background-color:black ;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+  width: 100px;
+  height: 60px;
+  cursor: move;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+  &.clone {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &.dropped {
+    background: cornflowerblue;
+  }
+}
+
+.submit{
+  background-color: E0E0E0;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+  width: 100px;
+  height: 60px;
+  cursor: move;
+  overflow: hidden;
+
+  &.clone {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &.dropped {
+    background: cornflowerblue;
+  }
+}
+
+.table{
+  background-color:white ;
+  color: #fafafa;
+  display: flex;
+
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+  width: 100px;
+  height: 60px;
+  cursor: move;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+  &.clone {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &.dropped {
+    background: cornflowerblue;
+  }
+}
+
+
+
+
